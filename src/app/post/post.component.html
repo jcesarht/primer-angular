@@ -1,0 +1,14 @@
+<head>
+	<link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+</head>
+<div id="div_content">
+	<div class="newspaper" *ngFor="let p of post">
+		<h1 class="title">{{ p.title }}</h1>
+		<div class="div_post" >
+		  {{ p.body }}
+		  <span class="autor"><strong><i>Autor:</i></strong> {{ p.userId }}</span>
+		</div>
+		<div><strong><i>Email:</i></strong> {{ p.email }}</div>
+	</div>
+</div>
+

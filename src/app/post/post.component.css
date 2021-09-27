@@ -1,0 +1,21 @@
+.newspaper{
+	margin-bottom: 20px;
+}
+.div_post{
+	background: #ccc;
+	border-radius:10px;
+	min-height: 70px;
+	text-align: justify;
+	padding: 20px;
+	position:relative;
+}
+h2,h1.title{
+	text-align: center;
+    color: #FCA205;
+    font-family: 'Lobster';
+}
+.autor{
+	position:absolute;
+    bottom:5px;
+    right:10px;
+}
